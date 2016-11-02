@@ -1,8 +1,15 @@
 
-
-#page {
-	width: 960px
+body {
+	background-image: url("../images/escheresque_ste.png");
 }
+/*
+#page {
+	width: 960px;
+	background-image: url("../images/escheresque_ste.png"); 
+
+}
+*/
+
 
 #header {
 	background-color: #ffffff;
@@ -17,20 +24,115 @@
 
 #namebox {
 	background-color: #4aaaa5;
-	width: 80px;
+	width: 185px;
 	height: 60px;
+	line-height: 60px;
+	font-size: 28px;
 	color: white;
 	float: left;
+	margin: 0px 0px 0px 80px;
+	padding: 10px;
 }
+
+ul {padding: 15px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+
+}
+
+li {display: inline;
+	margin-right: 10px;
+}
+
+.differentborder {
+	border: solid;
+	border-color: black;
+	padding: 0px 10px 0px 10px;
+	border-width: 0px 2px 0px 2px;
+}
+
+/*.maincontentframe {
+	background-image: "../images/escheresque_ste.png";
+} */
+
+#maincontent {
+	width: 650px;
+	height: 100%;
+}
+
+.maincontentframe {
+	width: 550px;
+	background-color: white;
+	margin: 0px 0px 0px 80px;
+}
+
+#InsideFrameTitle {
+	width: 550px;
+	background-color: white;
+	color:  #4aaaa5;
+	font-size: 28px;
+	border: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #cccccc;
+	padding: 10px 10px 10px 10px;
+
+}
+
+#biophoto {
+	float: left;
+}
+
+.indicies {
+
+}
+#animalbar {
+	width: 180px;
+	background-color:  #4aaaa5;
+	top: 260px;
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+
+}
+
+button {
+	background-color: #4aaaa5;
+	color: white
+}
+
+#sidebarpanel {
+	position: absolute;
+	top: 82px;
+	background: #999;
+	padding: 20px;
+	right: 30px;
+	text-align: center;
+}
+
+#InsideSidebarTitle {
+	width: 270px;
+	background-color: white;
+	color:  #4aaaa5;
+	font-size: 18px;
+	border: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #cccccc;
+	padding: 10px 10px 10px 10px;
+
+}
+
+
 
 #footer {
 	text-align: center;
 	background-color: #666666;
 	color: white;
 	width: 960px;
-	height: 60px;
+	height: 45px;
 	/*<-- the padding went away when I added the reset css --> */
-	padding: 15px;
+	padding: 25px 0px 0px 0px;
 	border: solid;
 	border-width: 10px 0px 0px 0px;
 	border-color:  #4aaaa5;
@@ -40,11 +142,4 @@
 }	
 
 
-#maincontent {
-	width: 650px;
-}
-
-#sidebar {
-	width: 270px;
-}
 
