@@ -1,14 +1,15 @@
 
 body {
-	background-image: url("../images/escheresque_ste.png");
+	background-image: url("../images/seigaiha.png");
+	border: solid;
+	border-width: 1px;
+	border-color: #dddddd;
 }
-/*
-#page {
-	width: 960px;
-	background-image: url("../images/escheresque_ste.png"); 
 
+a {
+	text-decoration: none;
+	color: #cccccc;
 }
-*/
 
 
 #header {
@@ -34,47 +35,57 @@ body {
 	padding: 10px;
 }
 
-ul {padding: 15px;
+nav {
+	right: 140px;
+	position: absolute;
+	margin: 25px 5px 5px 5px;
+
+}
+
+ul {
+	padding: 10px;
 	margin: 0px auto 0px auto;
-	text-align: center;
-
+	
 }
 
-li {display: inline;
-	margin-right: 10px;
-}
-
-.differentborder {
+li {
+	display: inline;
 	border: solid;
-	border-color: black;
-	padding: 0px 10px 0px 10px;
-	border-width: 0px 2px 0px 2px;
+	padding: 10px;
+	border-color: #cccccc;
+	border-width: 0px 1px 0px 0px;
+
 }
 
-/*.maincontentframe {
-	background-image: "../images/escheresque_ste.png";
-} */
+li:last-child {
+	border-right: none;
+}
+
 
 #maincontent {
-	width: 650px;
+	width: 100%;
 	height: 100%;
 }
 
-.maincontentframe {
-	width: 550px;
+#maincontentframe {
+	width: 650px;
+	position: relative;
+	left: 80px;
+	top:  120px;
 	background-color: white;
-	margin: 0px 0px 0px 80px;
+	padding: 65px 10px 0px 10px;
 }
 
 #InsideFrameTitle {
-	width: 550px;
-	background-color: white;
+	width: 630px;
+	position: absolute;
+	top: 28px;
 	color:  #4aaaa5;
-	font-size: 28px;
+	font-size: 34px;
 	border: solid;
 	border-width: 0px 0px 2px 0px;
 	border-color: #cccccc;
-	padding: 10px 10px 10px 10px;
+	padding: 0px 10px 15px 10px;
 
 }
 
@@ -104,10 +115,11 @@ button {
 
 #sidebarpanel {
 	position: absolute;
-	top: 82px;
-	background: #999;
+	top: 120px;
+	background-color: white;
+	/*background: #999;*/
 	padding: 20px;
-	right: 30px;
+	right: 100px;
 	text-align: center;
 }
 
@@ -115,11 +127,18 @@ button {
 	width: 270px;
 	background-color: white;
 	color:  #4aaaa5;
-	font-size: 18px;
+	font-size: 24px;
+	
+
+}
+
+#IconBar {
+	text-align: center;
+	width: 250px;
 	border: solid;
-	border-width: 0px 0px 2px 0px;
 	border-color: #cccccc;
-	padding: 10px 10px 10px 10px;
+	border-width: 2px 0px 0px 0px;
+	padding: 10px 0px 10px 0px;
 
 }
 
@@ -128,13 +147,14 @@ button {
 #footer {
 	text-align: center;
 	background-color: #666666;
-	color: white;
-	width: 960px;
-	height: 45px;
+	color: #cccccc;
+	/*color: white;*/
+	height: 35px;
+	width: 100%;
 	/*<-- the padding went away when I added the reset css --> */
 	padding: 25px 0px 0px 0px;
 	border: solid;
-	border-width: 10px 0px 0px 0px;
+	border-width: 5px 0px 0px 0px;
 	border-color:  #4aaaa5;
 	position: absolute;
 	bottom: 0;
