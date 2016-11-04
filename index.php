@@ -1,1 +1,1 @@
-<?php include_once("biotest.html"); ?>
+<?php include_once("index.html"); ?>
